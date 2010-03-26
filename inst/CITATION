@@ -1,0 +1,13 @@
+citEntry(
+    header = paste("To cite package", sQuote("bootruin"), "in publications use:"),
+    entry = "Article",
+    title = "A Bootstrap Test for the Probability of Ruin in the Compound Poisson Risk Process",
+    author = personList(as.person("Benjamin Baumgartner"), as.person("Riccardo Gatto")),
+    journal = "ASTIN Bulletin",
+    volume = 40,
+    number = 1,
+    year = 2010,
+    pages = "to appear",
+    textVersion = "Baumgartner, B. and Gatto, R. (2010). A Bootstrap Test for the Probability of
+    Ruin in the Compound Poisson Risk Process. ASTIN Bulletin, 40(1). To appear."
+)

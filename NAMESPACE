@@ -1,0 +1,7 @@
+export(
+    pvaldens,
+    pvaldistance,
+    ruinprob,
+    ruinprob.test
+)
+import(stats)
