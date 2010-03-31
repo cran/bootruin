@@ -27,7 +27,7 @@ ruinprob.test <- function(x, prob.null, type = c("bootstrap", "normal"), nboot, 
     structure(
         list(
             statistic = structure(teststat, names = "T"),
-            parameter = unlist(ruinargs),
+            parameter = unlist(ruinargs[sapply(ruinargs, is.numeric)]),
             p.value = switch(type,
                 normal = rppvalue(teststat, "normal"),
                 bootstrap = rppvalue(teststat, "bootstrap", teststat.boot)

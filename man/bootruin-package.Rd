@@ -21,6 +21,7 @@ Compound Poisson Risk Process}. To appear.
 
 \author{
 Benjamin Baumgartner \email{benjamin.baumgartner@stat.unibe.ch}
+Riccardo Gatto \email{gatto@stat.unibe.ch}
 }
 
 \keyword{package}
