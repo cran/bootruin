@@ -1,7 +1,7 @@
 \encoding{utf8}
 \name{pvaldistance}
 \alias{pvaldistance}
-\title{Distance measures of empirical probability functions}
+\title{Distance Measures of Empirical Probability Functions}
 
 \description{
 This function provides a framework to evaluate various measures of distance between an empirical

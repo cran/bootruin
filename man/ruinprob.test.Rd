@@ -1,6 +1,6 @@
 \name{ruinprob.test}
 \alias{ruinprob.test}
-\title{A bootstrap test for the probability of ruin in the classical risk process}
+\title{A Bootstrap Test for the Probability of Ruin in the Classical Risk Process}
 
 \description{
 This function provides a testing framework for the probability of ruin in the classical, compound
@@ -53,7 +53,7 @@ A list with class \code{"htest"} containing the following components:
 
 \references{
 Baumgartner, B. and Gatto, R. (2010) \emph{A Bootstrap Test for the Probability of Ruin in the
-Compound Poisson Risk Process}. ASTIN Bulletin, \bold{40}(1), to appear.
+Compound Poisson Risk Process}. ASTIN Bulletin, \bold{40}(1), pp. 241--255.
 }
 
 \note{

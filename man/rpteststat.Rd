@@ -1,6 +1,6 @@
 \name{rpteststat}
 \alias{rpteststat}
-\title{Computation of the test statistic for the probability of ruin}
+\title{Computation of the Test Statistic for the Probability of Ruin}
 
 \description{
 This function computes the test statistic for the test of the probability of ruin

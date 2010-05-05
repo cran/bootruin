@@ -1,6 +1,6 @@
 \name{rpjack}
 \alias{rpjack}
-\title{A jackknife estimator of the standard error of the probability of ruin}
+\title{A Jackknife Estimator of the Standard Error of the Probability of Ruin}
 
 \description{
 This function computes the jackknife estimator of the standard error of the estimator of the
@@ -30,13 +30,12 @@ A numeric vector of length \code{ncol(as.matrix(x))}.
 }
 
 \references{
-Efron, B. and Tibshirani, R. (1993) An Introduction to the Bootstrap. Chapman and Hall, New York,
-London. 
+Efron, B. and Tibshirani, R. (1993) \emph{An Introduction to the Bootstrap}. Chapman and Hall.
 
 Tukey, J. W. (1958) \emph{Bias and Confidence in Not Quite Large Samples}. The Annals of
 Mathematical Statistics, \bold{29}(2), p. 614.
 
-Quenouille, M. H. (1956) \emph{Note on Bias in Estimation}. Biometrika, \bold{43}, pp. 353-360.
+Quenouille, M. H. (1956) \emph{Note on Bias in Estimation}. Biometrika, \bold{43}, pp. 353--360.
 }
 
 \note{

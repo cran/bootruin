@@ -1,6 +1,6 @@
 \name{rpdataconv}
 \alias{rpdataconv}
-\title{Convert a list of numerics to a matrix}
+\title{Convert a List of Numerics to a Matrix}
 
 \description{
 This function converts a list whose members are numeric vectors (possibly of different length) to a

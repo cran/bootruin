@@ -1,6 +1,6 @@
 \name{rpdatasim}
 \alias{rpdatasim}
-\title{Simulating data, shaped into a matrix}
+\title{Simulating Data, Shaped into a Matrix}
 
 \description{
 This is a wrapper function for simulating data that have the correct structure for further

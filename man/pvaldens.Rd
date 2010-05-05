@@ -1,6 +1,6 @@
 \name{pvaldens}
 \alias{pvaldens}
-\title{Density estimation of data in the unit interval}
+\title{Density Estimation of Data in the Unit Interval}
 
 \description{
 This function computes density estimators for densities with the unit interval as support.  One
@@ -42,11 +42,11 @@ point(s).
 }
 
 \references{
-Jones, M. C. and Henderson, D. A. (2007). \emph{Kernel-Type Density Estimation on the Unit
-Interval}. Biometrika, \bold{94}(4), pp. 977-984.
+Jones, M. C. and Henderson, D. A. (2007) \emph{Kernel-Type Density Estimation on the Unit
+Interval}. Biometrika, \bold{94}(4), pp. 977--984.
 
-Chen, S. X. (1999). \emph{A beta kernel estimation for density functions}. Computational Statistics
-and Data Analysis, \bold{31}(2), pp. 131-145.
+Chen, S. X. (1999) \emph{A Beta Kernel Estimation for Density Functions}. Computational Statistics
+and Data Analysis, \bold{31}(2), pp. 131--145.
 }
 
 \seealso{

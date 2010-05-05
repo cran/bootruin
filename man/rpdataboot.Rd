@@ -1,6 +1,6 @@
 \name{rpdataboot}
 \alias{rpdataboot}
-\title{Creating bootstrap replications from an matrix of observations}
+\title{Creating Bootstrap Replications from an Matrix of Observations}
 
 \description{
 This function provides a simple way to create bootstrap replications of a dataset. The replication

@@ -1,7 +1,7 @@
 \encoding{utf8}
 \name{ruinprob}
 \alias{ruinprob}
-\title{The probability of ruin in the classical risk process}
+\title{The Probability of Ruin in the Classical Risk Process}
 
 \description{
 This function calculates or estimates the probability of ruin in the classical (compund Poisson)
@@ -67,7 +67,7 @@ below.
 
 \references{
 Dufresne, F. and Gerber, H.-U. (1989) \emph{Three Methods to Calculate the Probability of Ruin}.
-ASTIN Bulletin, \bold{19}(1), pp. 71-90.
+ASTIN Bulletin, \bold{19}(1), pp. 71--90.
 }
 
 \note{

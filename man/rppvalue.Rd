@@ -1,6 +1,6 @@
 \name{rppvalue}
 \alias{rppvalue}
-\title{P-values for the test of the probability of ruin}
+\title{P-values for the Test of the Probability of Ruin}
 
 \description{
 This function provides p-values for the test of the probability of ruin using one of two different
@@ -40,7 +40,7 @@ A numeric (vector, matrix or array) with the same dimension as \code{x}.
 
 \references{
 Baumgartner, B. and Gatto, R. (2010) \emph{A Bootstrap Test for the Probability of Ruin in the
-Compound Poisson Risk Process}. To appear.
+Compound Poisson Risk Process}. ASTIN Bulletin, \bold{40}(1), pp. 241--255.
 }
 
 \note{
