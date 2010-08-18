@@ -17,7 +17,7 @@ rppvalue <- function(x, method = c("bootstrap", "normal"), x.boot){
                 x.boot <- matrix(x.boot, nrow = 1)
             }
             x <- array(x, dim = c(dim(x), dim(x.boot)[2]))
-            return(drop(rowMeans(sweep(x, 2:3, x.boot, ">="), dim = 2)))
+            return(drop(rowMeans(sweep(x, 2:3, x.boot, ">="), dims = 2)))
         }
     )
 }
