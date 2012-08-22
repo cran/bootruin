@@ -2,8 +2,8 @@ Package: bootruin
 Type: Package
 Title: A bootstrap test for the probability of ruin in the classical
         risk process
-Version: 1.1-254
-Date: 2011-10-20
+Version: 1.1-579
+Date: 2012-08-22
 Author: Benjamin Baumgartner <benjamin.baumgartner@stat.unibe.ch>,
         Riccardo Gatto <gatto@stat.unibe.ch>
 Maintainer: Benjamin Baumgartner <benjamin.baumgartner@stat.unibe.ch>
@@ -13,6 +13,6 @@ Description: This package provides a framework for testing the
         comparing the performance between the bootstrap test and the
         test using asymptotic normality.
 License: AGPL-3
-Packaged: 2011-10-20 11:35:02 UTC; baumgrt
+Packaged: 2012-08-22 13:42:26 UTC; baumgrt
 Repository: CRAN
-Date/Publication: 2011-10-20 11:54:52
+Date/Publication: 2012-08-22 14:49:03

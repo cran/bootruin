@@ -1,4 +1,4 @@
-5040b5eff0e7fb9f31ea844ddefb5cca *DESCRIPTION
+d337968a6bdcb8cbad07f2aa20a6d6e5 *DESCRIPTION
 7bb118aad78d0054f24eb0d1b4bd731c *NAMESPACE
 9e66d21a593c687cab4a58d0faea63da *R/pvaldens.R
 dbd50f4c370161399fd31c877541f497 *R/pvaldistance.R
@@ -8,7 +8,7 @@ dbd50f4c370161399fd31c877541f497 *R/pvaldistance.R
 fdbce231660e4378ceb0ed05a9e8710b *R/rpjack.R
 afa267ea36d917c33cc23bf6f0ce75e2 *R/rppvalue.R
 8afa3dd1a7bd4d0c7e81453a82d2d5ff *R/rpteststat.R
-3de2facd4f6f43c9a87ecccc987c5149 *R/ruinprob.R
+bbe85e13dc75ae27a8c7eb70fa9fa49d *R/ruinprob.R
 8179f50afb4ac602328247e0842d93f5 *R/ruinprob.test.R
 ed052ad5f8d3957b7a2ac2892fb87515 *inst/CITATION
 eaaec70da0d707bdbc7e9fbc613a2079 *man/bootruin-package.Rd
@@ -22,4 +22,4 @@ ac786745c9c35d783cd5cf544afbbcf1 *man/rpdataboot.Rd
 1d2daa9ddbe455f872f4400c27c54b54 *man/rpteststat.Rd
 3f2eacc21725e59d696a27f00b39744e *man/ruinprob.Rd
 c5dda2a7847522397992ac62b1700027 *man/ruinprob.test.Rd
-462ad32b65434a21fc62a4a567b639de *src/rplimits.c
+31c177031ea0cde21c95844b0ade0b9d *src/rplimits.c
