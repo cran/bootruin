@@ -88,8 +88,10 @@ but modifications of one or more parameter values are still possible.
 x <- rexp(10, 0.1)
 print(x)
 
+\dontrun{
 # The estimated probability of ruin
 ruinprob(x, reserve = 100, loading = 0.2, interval = 0.25)
+}
 
 # The true probability of ruin of the risk process
 ruinprob(

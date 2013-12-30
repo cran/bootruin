@@ -69,6 +69,7 @@ large, usually numbers between 50 and 200 are reasonable choices.
 # Generating a sample of 50 exponentially distributed claims with mean 10
 x <- rexp(50, 0.1)
 
+\dontrun{
 # Given this sample, test whether the probability of ruin is smaller than
 # 0.1 using a bootstrap test with 100 bootstrap replications.
 ruinprob.test(
@@ -76,6 +77,7 @@ ruinprob.test(
     loading = 0.2, reserve = 100, interval = 1,
     bootmethod = "nonp", nboot = 100
 )
+}
 
 # The same test using normal approximation. This is a lot faster.
 ruinprob.test(

@@ -2,18 +2,14 @@ rpjack <- function(x, ...){
     stopifnot(is.numeric(x))
 
     if(is.array(x)){
-        return(apply(x, 2:length(dim(x)), rpjack, ...))
+        return(apply(x, 2L:length(dim(x)), rpjack, ...))
     } else {
-        x <- as.vector(x)
-        bad <- is.na(x) | is.nan(x) | is.infinite(x)
-        x <- x[!bad]
+        x   <- as.vector(x)
+        x   <- x[is.finite(x)]
         num <- length(x)
-        X <- matrix(
-            rep(x, num)[-(num*(0:(num - 1)) + 1:num)],
-            ncol = num,
-            nrow = num - 1,
-            byrow = FALSE
-        )
-        return(sd(ruinprob(x = X, ...)) * (num - 1) / sqrt(num))
+        X <- matrix(data = rep(x, num)[-(num*(0L:(num - 1L)) + seq_len(num))],
+                    ncol = num,
+                    nrow = num - 1L)
+        return(sd(ruinprob(x = X, ...)) * (num - 1.0) / sqrt(num))
     }
 }

@@ -15,7 +15,7 @@ void rplimits(double *hl, double *psizero, int *num, double *rp)
         fu[i] = 0;
         for(int j = 1; j <= i; j++)
         {
-            fl[i] += hl[j] * fl[i-j];
+            fl[i] += hl[j]   * fl[i-j];
             fu[i] += hl[j-1] * fu[i-j];
         }
         fl[i] *= facl;

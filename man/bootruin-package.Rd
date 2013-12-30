@@ -20,7 +20,7 @@ Compound Poisson Risk Process}. ASTIN Bulletin, \bold{40}(1), pp. 241--255.
 
 
 \author{
-Benjamin Baumgartner \email{benjamin.baumgartner@stat.unibe.ch},\cr
+Benjamin Baumgartner \email{benjamin@baumgrt.com},\cr
 Riccardo Gatto \email{gatto@stat.unibe.ch}
 }
 
