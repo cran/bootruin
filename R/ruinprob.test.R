@@ -14,9 +14,10 @@ ruinprob.test <- function(x, prob.null, type = c("bootstrap", "normal"), nboot, 
                                 ruinargs$interval)
     dataname <- deparse(substitute(x))
 
-    x        <- rpdataconv(x)
+    #x        <- rpdataconv(x)
     rp       <- ruinprob(x = x, param.list = ruinargs)
     rp.se    <- rpjack(x = x, param.list = ruinargs, interval = jackint)
+
     teststat <- rpteststat(rp, prob.null, rp.se)
 
     if(type == "bootstrap"){
