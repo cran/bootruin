@@ -7,15 +7,17 @@ rpdataconv <- function(x) {
             return(x)
         } else {
             x       <- lapply(x, as.vector)
-            x.len   <- vapply(x, length, integer(1L))
-            max.len <- max(x.len)
+#             x.len   <- vapply(x, length, integer(1L))
+#             max.len <- max(x.len)
+            max.len <- max(vapply(x, length, integer(1L)))
             if(max.len == 1L){
                 warning("All entries of x have length 1.")
                 return(matrix(unlist(unname(x)), nrow = 1L))
             } else {
-                x.fill <- lapply(max.len - x.len, rep.int, x = NA_real_)
-                x      <- mapply(FUN = c, x, x.fill)
-                return(unname(as.matrix(as.data.frame(x))))
+#                 x.fill <- lapply(max.len - x.len, rep.int, x = NA_real_)
+#                 x      <- mapply(FUN = c, x, x.fill)
+#                 return(unname(as.matrix(as.data.frame(x))))
+                return(as.matrix(unname(vapply(x, `length<-`, numeric(max.len), max.len))))
             }
         }
     }

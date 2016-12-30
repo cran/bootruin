@@ -6,3 +6,4 @@ export(
 )
 useDynLib(bootruin, rplimits)
 import(stats)
+import(utils)
